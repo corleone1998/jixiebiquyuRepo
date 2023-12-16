@@ -1,0 +1,4 @@
+E:/vscode/jixiebiquyu/Demo/build/CMakeFiles/Calcu.dir
+E:/vscode/jixiebiquyu/Demo/build/CMakeFiles/demo.dir
+E:/vscode/jixiebiquyu/Demo/build/CMakeFiles/edit_cache.dir
+E:/vscode/jixiebiquyu/Demo/build/CMakeFiles/rebuild_cache.dir
