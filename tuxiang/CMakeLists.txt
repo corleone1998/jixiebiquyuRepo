@@ -8,7 +8,7 @@ project(tuxiang)
     # file(GLOB My_source "${PROJECT_SOURCE_DIR}/*.cpp" )
     # # 设置其路径为src
     # set(My_source "${PROJECT_SOURCE_DIR}/src")
-    
+
 # 设置C++标准
 set(CMAKE_CXX_STANDARD 11)
 # 找包
