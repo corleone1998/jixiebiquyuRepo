@@ -1,10 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/map1.dir/map1.cpp.obj"
-  "CMakeFiles/map1.dir/map1.cpp.obj.d"
-  "libmap1.dll.a"
-  "map1.exe"
-  "map1.exe.manifest"
-  "map1.pdb"
+  "../bin/map1"
+  "../bin/map1.pdb"
+  "CMakeFiles/map1.dir/map1.cpp.o"
+  "CMakeFiles/map1.dir/map1.cpp.o.d"
 )
 
 # Per-language clean rules from dependency scanning.
