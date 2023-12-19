@@ -14,15 +14,15 @@ set(CMAKE_CXX_STANDARD 11)
 # 找包
 find_package(OpenCV REQUIRED)
 # 生成可执行文件
-add_executable(map1 map1.cpp)
+add_executable(map ${PROJECT_SOURCE_DIR}/src/map.cpp)
 # 将可执行文件放在当前路径的bin文件下
-set_target_properties(map1 PROPERTIES RUNTIME_OUTPUT_DIRECTORY "${PROJECT_SOURCE_DIR}/bin")
+set_target_properties(map PROPERTIES RUNTIME_OUTPUT_DIRECTORY "${PROJECT_SOURCE_DIR}/bin")
 # 包含头文件
 # include_directories(${OpenCV_INCLUDE_DIRS})
 # 打印头文件的值
 message(${OpenCV_INCLUDE_DIRS})
 # 链接动态库
-target_link_libraries(map1 ${OpenCV_LIBS})
+target_link_libraries(map ${OpenCV_LIBS})
 #打印 OpenCV_LIBS 变量的值。
 message(${OpenCV_LIBS})
 #  OpenCV_DIR 变量的值。
