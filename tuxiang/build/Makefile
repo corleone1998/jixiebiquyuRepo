@@ -117,41 +117,41 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named map
+# Target rules for targets named Map
 
 # Build rule for target.
-map: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 map
-.PHONY : map
+Map: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Map
+.PHONY : Map
 
 # fast build rule for target.
-map/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/map.dir/build.make CMakeFiles/map.dir/build
-.PHONY : map/fast
+Map/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Map.dir/build.make CMakeFiles/Map.dir/build
+.PHONY : Map/fast
 
-src/map.o: src/map.cpp.o
-.PHONY : src/map.o
+src/Map.o: src/Map.cpp.o
+.PHONY : src/Map.o
 
 # target to build an object file
-src/map.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/map.dir/build.make CMakeFiles/map.dir/src/map.cpp.o
-.PHONY : src/map.cpp.o
+src/Map.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Map.dir/build.make CMakeFiles/Map.dir/src/Map.cpp.o
+.PHONY : src/Map.cpp.o
 
-src/map.i: src/map.cpp.i
-.PHONY : src/map.i
+src/Map.i: src/Map.cpp.i
+.PHONY : src/Map.i
 
 # target to preprocess a source file
-src/map.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/map.dir/build.make CMakeFiles/map.dir/src/map.cpp.i
-.PHONY : src/map.cpp.i
+src/Map.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Map.dir/build.make CMakeFiles/Map.dir/src/Map.cpp.i
+.PHONY : src/Map.cpp.i
 
-src/map.s: src/map.cpp.s
-.PHONY : src/map.s
+src/Map.s: src/Map.cpp.s
+.PHONY : src/Map.s
 
 # target to generate assembly for a file
-src/map.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/map.dir/build.make CMakeFiles/map.dir/src/map.cpp.s
-.PHONY : src/map.cpp.s
+src/Map.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Map.dir/build.make CMakeFiles/Map.dir/src/Map.cpp.s
+.PHONY : src/Map.cpp.s
 
 # Help Target
 help:
@@ -161,10 +161,10 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... map"
-	@echo "... src/map.o"
-	@echo "... src/map.i"
-	@echo "... src/map.s"
+	@echo "... Map"
+	@echo "... src/Map.o"
+	@echo "... src/Map.i"
+	@echo "... src/Map.s"
 .PHONY : help
 
 

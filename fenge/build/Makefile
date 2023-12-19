@@ -117,41 +117,41 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named fenge
+# Target rules for targets named fenge2
 
 # Build rule for target.
-fenge: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 fenge
-.PHONY : fenge
+fenge2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 fenge2
+.PHONY : fenge2
 
 # fast build rule for target.
-fenge/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fenge.dir/build.make CMakeFiles/fenge.dir/build
-.PHONY : fenge/fast
+fenge2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fenge2.dir/build.make CMakeFiles/fenge2.dir/build
+.PHONY : fenge2/fast
 
-src/K-means.o: src/K-means.cpp.o
-.PHONY : src/K-means.o
+src/K-means2.o: src/K-means2.cpp.o
+.PHONY : src/K-means2.o
 
 # target to build an object file
-src/K-means.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fenge.dir/build.make CMakeFiles/fenge.dir/src/K-means.cpp.o
-.PHONY : src/K-means.cpp.o
+src/K-means2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fenge2.dir/build.make CMakeFiles/fenge2.dir/src/K-means2.cpp.o
+.PHONY : src/K-means2.cpp.o
 
-src/K-means.i: src/K-means.cpp.i
-.PHONY : src/K-means.i
+src/K-means2.i: src/K-means2.cpp.i
+.PHONY : src/K-means2.i
 
 # target to preprocess a source file
-src/K-means.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fenge.dir/build.make CMakeFiles/fenge.dir/src/K-means.cpp.i
-.PHONY : src/K-means.cpp.i
+src/K-means2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fenge2.dir/build.make CMakeFiles/fenge2.dir/src/K-means2.cpp.i
+.PHONY : src/K-means2.cpp.i
 
-src/K-means.s: src/K-means.cpp.s
-.PHONY : src/K-means.s
+src/K-means2.s: src/K-means2.cpp.s
+.PHONY : src/K-means2.s
 
 # target to generate assembly for a file
-src/K-means.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fenge.dir/build.make CMakeFiles/fenge.dir/src/K-means.cpp.s
-.PHONY : src/K-means.cpp.s
+src/K-means2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fenge2.dir/build.make CMakeFiles/fenge2.dir/src/K-means2.cpp.s
+.PHONY : src/K-means2.cpp.s
 
 # Help Target
 help:
@@ -161,10 +161,10 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... fenge"
-	@echo "... src/K-means.o"
-	@echo "... src/K-means.i"
-	@echo "... src/K-means.s"
+	@echo "... fenge2"
+	@echo "... src/K-means2.o"
+	@echo "... src/K-means2.i"
+	@echo "... src/K-means2.s"
 .PHONY : help
 
 

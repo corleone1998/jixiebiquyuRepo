@@ -49,5 +49,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/fenge.dir/DependInfo.cmake"
+  "CMakeFiles/fenge2.dir/DependInfo.cmake"
   )

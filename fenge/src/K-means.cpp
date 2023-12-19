@@ -23,7 +23,7 @@ int main() {
     }
 
     // 应用k-means算法
-    int clusterCount = 8;
+    int clusterCount = 2;
     Mat labels;
     int attempts = 5;
     Mat centers;
@@ -43,7 +43,7 @@ int main() {
     // 显示原始图像和聚类后的图像
     imshow("original image", img);
     imshow("clustered image", new_image);
-
+    //cv::imwrite("Clustered_area", new_image);
     waitKey(0);
 
     return 0;
