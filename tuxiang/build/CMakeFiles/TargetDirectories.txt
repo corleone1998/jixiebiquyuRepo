@@ -1,3 +1,0 @@
-/home/wangyi/jixiebiquyuRepo/tuxiang/build/CMakeFiles/Map.dir
-/home/wangyi/jixiebiquyuRepo/tuxiang/build/CMakeFiles/edit_cache.dir
-/home/wangyi/jixiebiquyuRepo/tuxiang/build/CMakeFiles/rebuild_cache.dir
