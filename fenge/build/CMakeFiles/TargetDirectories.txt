@@ -1,3 +1,0 @@
-/home/wangyi/jixiebiquyuRepo/fenge/build/CMakeFiles/fenge2.dir
-/home/wangyi/jixiebiquyuRepo/fenge/build/CMakeFiles/edit_cache.dir
-/home/wangyi/jixiebiquyuRepo/fenge/build/CMakeFiles/rebuild_cache.dir
