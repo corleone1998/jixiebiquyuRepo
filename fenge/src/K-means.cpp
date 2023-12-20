@@ -43,8 +43,9 @@ int main() {
     // 显示原始图像和聚类后的图像
     imshow("original image", img);
     imshow("clustered image", new_image);
-    //cv::imwrite("Clustered_area", new_image);
     waitKey(0);
+    // 储存图片
+    cv::imwrite("Clustered_area", new_image);
 
     return 0;
 }

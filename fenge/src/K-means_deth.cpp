@@ -6,7 +6,7 @@ using namespace std;
 
 int main() {
     // 读取图像
-    Mat img = imread("../../tuxiang/build/Stained_area.png");
+    Mat img = imread("../../tuxiang/image/Stained_area.png");
 
     // 检查图像是否正确加载
     if (img.empty()) {
@@ -59,6 +59,8 @@ int main() {
     imshow("Original Image", img);
     imshow("Clustered Image", clusteredImg);
     waitKey(0);
+    // 储存图片
+     cv::imwrite("../image/Clustered_area.png", clusteredImg);
 
     return 0;
 }

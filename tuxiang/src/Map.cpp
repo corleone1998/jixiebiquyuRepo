@@ -49,7 +49,7 @@ for (size_t i = 0; i < area_number; i++)
     cv::waitKey(0);
 
     // 保存清洗区域“Stained_area”图像
-    cv::imwrite("Stained_area.png", image);
+    cv::imwrite("../image/Stained_area.png", image);
 
     return 0;
 }
