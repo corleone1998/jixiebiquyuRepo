@@ -69,28 +69,28 @@ include CMakeFiles/fenge.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/fenge.dir/flags.make
 
-CMakeFiles/fenge.dir/src/K-means_deth.cpp.o: CMakeFiles/fenge.dir/flags.make
-CMakeFiles/fenge.dir/src/K-means_deth.cpp.o: ../src/K-means_deth.cpp
-CMakeFiles/fenge.dir/src/K-means_deth.cpp.o: CMakeFiles/fenge.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wangyi/jixiebiquyuRepo/fenge/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/fenge.dir/src/K-means_deth.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fenge.dir/src/K-means_deth.cpp.o -MF CMakeFiles/fenge.dir/src/K-means_deth.cpp.o.d -o CMakeFiles/fenge.dir/src/K-means_deth.cpp.o -c /home/wangyi/jixiebiquyuRepo/fenge/src/K-means_deth.cpp
+CMakeFiles/fenge.dir/src/K-means_centroids.cpp.o: CMakeFiles/fenge.dir/flags.make
+CMakeFiles/fenge.dir/src/K-means_centroids.cpp.o: ../src/K-means_centroids.cpp
+CMakeFiles/fenge.dir/src/K-means_centroids.cpp.o: CMakeFiles/fenge.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wangyi/jixiebiquyuRepo/fenge/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/fenge.dir/src/K-means_centroids.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fenge.dir/src/K-means_centroids.cpp.o -MF CMakeFiles/fenge.dir/src/K-means_centroids.cpp.o.d -o CMakeFiles/fenge.dir/src/K-means_centroids.cpp.o -c /home/wangyi/jixiebiquyuRepo/fenge/src/K-means_centroids.cpp
 
-CMakeFiles/fenge.dir/src/K-means_deth.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/fenge.dir/src/K-means_deth.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wangyi/jixiebiquyuRepo/fenge/src/K-means_deth.cpp > CMakeFiles/fenge.dir/src/K-means_deth.cpp.i
+CMakeFiles/fenge.dir/src/K-means_centroids.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/fenge.dir/src/K-means_centroids.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wangyi/jixiebiquyuRepo/fenge/src/K-means_centroids.cpp > CMakeFiles/fenge.dir/src/K-means_centroids.cpp.i
 
-CMakeFiles/fenge.dir/src/K-means_deth.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/fenge.dir/src/K-means_deth.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wangyi/jixiebiquyuRepo/fenge/src/K-means_deth.cpp -o CMakeFiles/fenge.dir/src/K-means_deth.cpp.s
+CMakeFiles/fenge.dir/src/K-means_centroids.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/fenge.dir/src/K-means_centroids.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wangyi/jixiebiquyuRepo/fenge/src/K-means_centroids.cpp -o CMakeFiles/fenge.dir/src/K-means_centroids.cpp.s
 
 # Object files for target fenge
 fenge_OBJECTS = \
-"CMakeFiles/fenge.dir/src/K-means_deth.cpp.o"
+"CMakeFiles/fenge.dir/src/K-means_centroids.cpp.o"
 
 # External object files for target fenge
 fenge_EXTERNAL_OBJECTS =
 
-../bin/fenge: CMakeFiles/fenge.dir/src/K-means_deth.cpp.o
+../bin/fenge: CMakeFiles/fenge.dir/src/K-means_centroids.cpp.o
 ../bin/fenge: CMakeFiles/fenge.dir/build.make
 ../bin/fenge: /usr/local/lib/libopencv_gapi.so.4.8.0
 ../bin/fenge: /usr/local/lib/libopencv_highgui.so.4.8.0

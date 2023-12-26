@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
   "../bin/fenge"
   "../bin/fenge.pdb"
-  "CMakeFiles/fenge.dir/src/K-means_deth.cpp.o"
-  "CMakeFiles/fenge.dir/src/K-means_deth.cpp.o.d"
+  "CMakeFiles/fenge.dir/src/K-means_centroids.cpp.o"
+  "CMakeFiles/fenge.dir/src/K-means_centroids.cpp.o.d"
 )
 
 # Per-language clean rules from dependency scanning.

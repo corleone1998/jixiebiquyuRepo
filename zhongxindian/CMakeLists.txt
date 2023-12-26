@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.5)
+project(zhongxindian)
+find_package(OpenCV REQUIRED)
+add_executable(zhongxindian "./src/zhonxindian.cpp")
+set_target_properties(zhongxindian PROPERTIES RUNTIME_OUTPUT_DIRECTORY "${PROJECT_SOURCE_DIR}/bin")
+target_link_libraries(zhongxindian ${OpenCV_LIBS})

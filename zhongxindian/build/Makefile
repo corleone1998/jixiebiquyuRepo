@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/wangyi/jixiebiquyuRepo/fenge
+CMAKE_SOURCE_DIR = /home/wangyi/jixiebiquyuRepo/zhongxindian
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/wangyi/jixiebiquyuRepo/fenge/build
+CMAKE_BINARY_DIR = /home/wangyi/jixiebiquyuRepo/zhongxindian/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/wangyi/jixiebiquyuRepo/fenge/build/CMakeFiles /home/wangyi/jixiebiquyuRepo/fenge/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wangyi/jixiebiquyuRepo/zhongxindian/build/CMakeFiles /home/wangyi/jixiebiquyuRepo/zhongxindian/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/wangyi/jixiebiquyuRepo/fenge/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wangyi/jixiebiquyuRepo/zhongxindian/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -117,41 +117,41 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named fenge
+# Target rules for targets named zhongxindian
 
 # Build rule for target.
-fenge: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 fenge
-.PHONY : fenge
+zhongxindian: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 zhongxindian
+.PHONY : zhongxindian
 
 # fast build rule for target.
-fenge/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fenge.dir/build.make CMakeFiles/fenge.dir/build
-.PHONY : fenge/fast
+zhongxindian/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zhongxindian.dir/build.make CMakeFiles/zhongxindian.dir/build
+.PHONY : zhongxindian/fast
 
-src/K-means_centroids.o: src/K-means_centroids.cpp.o
-.PHONY : src/K-means_centroids.o
+src/zhonxindian.o: src/zhonxindian.cpp.o
+.PHONY : src/zhonxindian.o
 
 # target to build an object file
-src/K-means_centroids.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fenge.dir/build.make CMakeFiles/fenge.dir/src/K-means_centroids.cpp.o
-.PHONY : src/K-means_centroids.cpp.o
+src/zhonxindian.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zhongxindian.dir/build.make CMakeFiles/zhongxindian.dir/src/zhonxindian.cpp.o
+.PHONY : src/zhonxindian.cpp.o
 
-src/K-means_centroids.i: src/K-means_centroids.cpp.i
-.PHONY : src/K-means_centroids.i
+src/zhonxindian.i: src/zhonxindian.cpp.i
+.PHONY : src/zhonxindian.i
 
 # target to preprocess a source file
-src/K-means_centroids.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fenge.dir/build.make CMakeFiles/fenge.dir/src/K-means_centroids.cpp.i
-.PHONY : src/K-means_centroids.cpp.i
+src/zhonxindian.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zhongxindian.dir/build.make CMakeFiles/zhongxindian.dir/src/zhonxindian.cpp.i
+.PHONY : src/zhonxindian.cpp.i
 
-src/K-means_centroids.s: src/K-means_centroids.cpp.s
-.PHONY : src/K-means_centroids.s
+src/zhonxindian.s: src/zhonxindian.cpp.s
+.PHONY : src/zhonxindian.s
 
 # target to generate assembly for a file
-src/K-means_centroids.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fenge.dir/build.make CMakeFiles/fenge.dir/src/K-means_centroids.cpp.s
-.PHONY : src/K-means_centroids.cpp.s
+src/zhonxindian.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zhongxindian.dir/build.make CMakeFiles/zhongxindian.dir/src/zhonxindian.cpp.s
+.PHONY : src/zhonxindian.cpp.s
 
 # Help Target
 help:
@@ -161,10 +161,10 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... fenge"
-	@echo "... src/K-means_centroids.o"
-	@echo "... src/K-means_centroids.i"
-	@echo "... src/K-means_centroids.s"
+	@echo "... zhongxindian"
+	@echo "... src/zhonxindian.o"
+	@echo "... src/zhonxindian.i"
+	@echo "... src/zhonxindian.s"
 .PHONY : help
 
 

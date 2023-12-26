@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/wangyi/jixiebiquyuRepo/fenge/src/K-means_centroids.cpp" "CMakeFiles/fenge.dir/src/K-means_centroids.cpp.o" "gcc" "CMakeFiles/fenge.dir/src/K-means_centroids.cpp.o.d"
+  "/home/wangyi/jixiebiquyuRepo/zhongxindian/src/zhonxindian.cpp" "CMakeFiles/zhongxindian.dir/src/zhonxindian.cpp.o" "gcc" "CMakeFiles/zhongxindian.dir/src/zhonxindian.cpp.o.d"
   )
 
 # Targets to which this target links.

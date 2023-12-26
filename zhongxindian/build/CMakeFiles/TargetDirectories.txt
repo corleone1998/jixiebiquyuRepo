@@ -1,0 +1,3 @@
+/home/wangyi/jixiebiquyuRepo/zhongxindian/build/CMakeFiles/zhongxindian.dir
+/home/wangyi/jixiebiquyuRepo/zhongxindian/build/CMakeFiles/edit_cache.dir
+/home/wangyi/jixiebiquyuRepo/zhongxindian/build/CMakeFiles/rebuild_cache.dir

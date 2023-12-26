@@ -4,7 +4,7 @@ project(fenge)
 set(CXX_STANDARD_REQUIRED 11)
 find_package(OpenCV REQUIRED) #不用预先设置包的寻找路径了，因为linux中已经将包添加到环境变量中了
 
-add_executable(fenge "${PROJECT_SOURCE_DIR}/src/K-means_deth.cpp")
+add_executable(fenge "${PROJECT_SOURCE_DIR}/src/K-means_centroids.cpp")
 
 set_target_properties(fenge PROPERTIES RUNTIME_OUTPUT_DIRECTORY "${PROJECT_SOURCE_DIR}/bin")
 
