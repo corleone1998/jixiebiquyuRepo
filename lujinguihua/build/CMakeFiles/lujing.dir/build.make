@@ -69,28 +69,28 @@ include CMakeFiles/lujing.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/lujing.dir/flags.make
 
-CMakeFiles/lujing.dir/antcolony.cpp.o: CMakeFiles/lujing.dir/flags.make
-CMakeFiles/lujing.dir/antcolony.cpp.o: ../antcolony.cpp
-CMakeFiles/lujing.dir/antcolony.cpp.o: CMakeFiles/lujing.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wangyi/jixiebiquyuRepo/lujinguihua/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/lujing.dir/antcolony.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lujing.dir/antcolony.cpp.o -MF CMakeFiles/lujing.dir/antcolony.cpp.o.d -o CMakeFiles/lujing.dir/antcolony.cpp.o -c /home/wangyi/jixiebiquyuRepo/lujinguihua/antcolony.cpp
+CMakeFiles/lujing.dir/src/antcolony.cpp.o: CMakeFiles/lujing.dir/flags.make
+CMakeFiles/lujing.dir/src/antcolony.cpp.o: ../src/antcolony.cpp
+CMakeFiles/lujing.dir/src/antcolony.cpp.o: CMakeFiles/lujing.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wangyi/jixiebiquyuRepo/lujinguihua/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/lujing.dir/src/antcolony.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lujing.dir/src/antcolony.cpp.o -MF CMakeFiles/lujing.dir/src/antcolony.cpp.o.d -o CMakeFiles/lujing.dir/src/antcolony.cpp.o -c /home/wangyi/jixiebiquyuRepo/lujinguihua/src/antcolony.cpp
 
-CMakeFiles/lujing.dir/antcolony.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lujing.dir/antcolony.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wangyi/jixiebiquyuRepo/lujinguihua/antcolony.cpp > CMakeFiles/lujing.dir/antcolony.cpp.i
+CMakeFiles/lujing.dir/src/antcolony.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lujing.dir/src/antcolony.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wangyi/jixiebiquyuRepo/lujinguihua/src/antcolony.cpp > CMakeFiles/lujing.dir/src/antcolony.cpp.i
 
-CMakeFiles/lujing.dir/antcolony.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lujing.dir/antcolony.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wangyi/jixiebiquyuRepo/lujinguihua/antcolony.cpp -o CMakeFiles/lujing.dir/antcolony.cpp.s
+CMakeFiles/lujing.dir/src/antcolony.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lujing.dir/src/antcolony.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wangyi/jixiebiquyuRepo/lujinguihua/src/antcolony.cpp -o CMakeFiles/lujing.dir/src/antcolony.cpp.s
 
 # Object files for target lujing
 lujing_OBJECTS = \
-"CMakeFiles/lujing.dir/antcolony.cpp.o"
+"CMakeFiles/lujing.dir/src/antcolony.cpp.o"
 
 # External object files for target lujing
 lujing_EXTERNAL_OBJECTS =
 
-../bin/lujing: CMakeFiles/lujing.dir/antcolony.cpp.o
+../bin/lujing: CMakeFiles/lujing.dir/src/antcolony.cpp.o
 ../bin/lujing: CMakeFiles/lujing.dir/build.make
 ../bin/lujing: /usr/local/lib/libopencv_gapi.so.4.8.0
 ../bin/lujing: /usr/local/lib/libopencv_highgui.so.4.8.0

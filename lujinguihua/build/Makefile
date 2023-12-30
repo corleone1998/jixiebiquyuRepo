@@ -129,29 +129,29 @@ lujing/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lujing.dir/build.make CMakeFiles/lujing.dir/build
 .PHONY : lujing/fast
 
-antcolony.o: antcolony.cpp.o
-.PHONY : antcolony.o
+src/antcolony.o: src/antcolony.cpp.o
+.PHONY : src/antcolony.o
 
 # target to build an object file
-antcolony.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lujing.dir/build.make CMakeFiles/lujing.dir/antcolony.cpp.o
-.PHONY : antcolony.cpp.o
+src/antcolony.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lujing.dir/build.make CMakeFiles/lujing.dir/src/antcolony.cpp.o
+.PHONY : src/antcolony.cpp.o
 
-antcolony.i: antcolony.cpp.i
-.PHONY : antcolony.i
+src/antcolony.i: src/antcolony.cpp.i
+.PHONY : src/antcolony.i
 
 # target to preprocess a source file
-antcolony.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lujing.dir/build.make CMakeFiles/lujing.dir/antcolony.cpp.i
-.PHONY : antcolony.cpp.i
+src/antcolony.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lujing.dir/build.make CMakeFiles/lujing.dir/src/antcolony.cpp.i
+.PHONY : src/antcolony.cpp.i
 
-antcolony.s: antcolony.cpp.s
-.PHONY : antcolony.s
+src/antcolony.s: src/antcolony.cpp.s
+.PHONY : src/antcolony.s
 
 # target to generate assembly for a file
-antcolony.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lujing.dir/build.make CMakeFiles/lujing.dir/antcolony.cpp.s
-.PHONY : antcolony.cpp.s
+src/antcolony.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lujing.dir/build.make CMakeFiles/lujing.dir/src/antcolony.cpp.s
+.PHONY : src/antcolony.cpp.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... lujing"
-	@echo "... antcolony.o"
-	@echo "... antcolony.i"
-	@echo "... antcolony.s"
+	@echo "... src/antcolony.o"
+	@echo "... src/antcolony.i"
+	@echo "... src/antcolony.s"
 .PHONY : help
 
 

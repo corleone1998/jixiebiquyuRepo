@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/wangyi/jixiebiquyuRepo/lujinguihua/antcolony.cpp" "CMakeFiles/lujing.dir/antcolony.cpp.o" "gcc" "CMakeFiles/lujing.dir/antcolony.cpp.o.d"
+  "/home/wangyi/jixiebiquyuRepo/lujinguihua/src/antcolony.cpp" "CMakeFiles/lujing.dir/src/antcolony.cpp.o" "gcc" "CMakeFiles/lujing.dir/src/antcolony.cpp.o.d"
   )
 
 # Targets to which this target links.
