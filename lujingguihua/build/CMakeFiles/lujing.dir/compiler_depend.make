@@ -861,7 +861,8 @@ CMakeFiles/lujing.dir/src/lujing.cpp.o: ../src/lujing.cpp \
   /usr/local/include/opencv4/opencv2/video.hpp \
   /usr/local/include/opencv4/opencv2/video/tracking.hpp \
   /usr/local/include/opencv4/opencv2/video/background_segm.hpp \
-  /home/wangyi/jixiebiquyuRepo/include/AntColonyOptimization.h
+  /home/wangyi/jixiebiquyuRepo/include/AntColonyOptimization.h \
+  /home/wangyi/jixiebiquyuRepo/include/zuobiaoduqu.h
 
 
 /home/wangyi/jixiebiquyuRepo/include/AntColonyOptimization.h:
@@ -1601,6 +1602,8 @@ CMakeFiles/lujing.dir/src/lujing.cpp.o: ../src/lujing.cpp \
 /usr/include/x86_64-linux-gnu/bits/types/__FILE.h:
 
 /usr/include/math.h:
+
+/home/wangyi/jixiebiquyuRepo/include/zuobiaoduqu.h:
 
 /usr/include/x86_64-linux-gnu/bits/math-vector.h:
 
