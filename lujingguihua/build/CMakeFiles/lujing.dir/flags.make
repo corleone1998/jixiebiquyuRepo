@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/wangyi/jixiebiquyuRepo/fenge/../include -isystem /usr/local/include/opencv4
+CXX_INCLUDES = -I/home/wangyi/jixiebiquyuRepo/lujingguihua/../include -isystem /usr/local/include/opencv4
 
-CXX_FLAGS = 
+CXX_FLAGS = -g -g
 

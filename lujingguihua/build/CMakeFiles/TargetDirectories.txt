@@ -1,0 +1,3 @@
+/home/wangyi/jixiebiquyuRepo/lujingguihua/build/CMakeFiles/lujing.dir
+/home/wangyi/jixiebiquyuRepo/lujingguihua/build/CMakeFiles/edit_cache.dir
+/home/wangyi/jixiebiquyuRepo/lujingguihua/build/CMakeFiles/rebuild_cache.dir

@@ -2,6 +2,8 @@
 #include <iostream>
 #include <opencv2/opencv.hpp>
 
+#include "zuobiaoduqu.h"
+
 using namespace std;
 using namespace cv;
 
@@ -15,25 +17,27 @@ int main() {
         return 1;
     }
     
-    // 打开包含坐标点的文件
-    std::ifstream infile("../../zhongxindian/centroids.txt");
-    std::string line;
-    std::vector<cv::Point2f> points;
+    // // 打开包含坐标点的文件
+    // std::ifstream infile("../../zhongxindian/centroids.txt");
+    // std::string line;
+    // std::vector<cv::Point2f> points;
 
-    // 读取文件中的每一行
-    while (std::getline(infile, line)) {
-        std::stringstream ss(line);
-        float x, y;
-        char comma;
-        ss >> x >> comma >> y; // 读取x值，跳过逗号，然后读取y值
-        points.push_back(cv::Point2f(x, y));
-        //   if (ss && comma == ',') { // 确保读取成功并且逗号存在
-        //     points.push_back(cv::Point2f(x, y));
-        // } else {
-        //     // 处理错误：如果这里有错误，你可能想要添加一些错误处理的代码
-        // }
-    }
-    infile.close();
+    // // 读取文件中的每一行
+    // while (std::getline(infile, line)) {
+    //     std::stringstream ss(line);
+    //     float x, y;
+    //     char comma;
+    //     ss >> x >> comma >> y; // 读取x值，跳过逗号，然后读取y值
+    //     points.push_back(cv::Point2f(x, y));
+    //     //   if (ss && comma == ',') { // 确保读取成功并且逗号存在
+    //     //     points.push_back(cv::Point2f(x, y));
+    //     // } else {
+    //     //     // 处理错误：如果这里有错误，你可能想要添加一些错误处理的代码
+    //     // }
+    // }
+    // infile.close();
+
+    std::vector<Point> points = readPointsFromFile("../../zhongxindian/centroids.txt");
 
     // 将点转换为适合k-means的格式
     cv::Mat data(points.size(), 2, CV_32F);
