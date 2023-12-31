@@ -12,12 +12,13 @@
 using namespace std;
 using namespace cv;
 
+// 分类绘制蚁群路线图像
 Mat lujinghuoqu(const std::pair<std::vector<Point>, std::vector<Point>>& class_Points, const std::vector<int>& BestTour_forall_1, const std::vector<int>& BestTour_forall_2, const Mat& img)
 {
     // 输出最佳路径
 
     // 第一条路径
-    std::cout << "Best tour: ";
+    std::cout << "Best tour_1: ";
     for (int idx : BestTour_forall_1) 
     {
         std::cout << idx << "==>";
@@ -30,7 +31,7 @@ Mat lujinghuoqu(const std::pair<std::vector<Point>, std::vector<Point>>& class_P
     std::cout << std::endl; // 换行
 
     // 第二条路径
-    std::cout << "Best tour: ";
+    std::cout << "Best tour_2: ";
     for (int idx : BestTour_forall_2) 
     {
         std::cout << idx << "==>";
