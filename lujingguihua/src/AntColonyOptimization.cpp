@@ -149,13 +149,13 @@ void updatePheromones(std::vector<std::vector<double>>& pheromones, const std::v
 double tourLength(const std::vector<Point>& points, const std::vector<int>& tour) 
 {
     double length = 0.0;
-    for (size_t i = 0; i < tour.size() ; ++i) {
-        length += calculateDistance(points[tour[i]], points[tour[i + 1]]);
+    for (size_t i = 0; i < tour.size() -1 ; ++i) //tour本身有回到原点的情况，tour.size()比城市数大1
+    {
+        length += calculateDistance(points[tour[i]], points[tour[i + 1]]); //tour本身没有回到原点的情况使用
     }
-    length += calculateDistance(points[tour.back()], points[tour[0]]);
+    //    length += calculateDistance(points[tour.back()], points[tour[0]]);
     return length;
 }
-
 
 // 计算两点之间的距离
 double calculateDistance(const Point& p1, const Point& p2) 
