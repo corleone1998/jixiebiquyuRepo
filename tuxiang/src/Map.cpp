@@ -10,12 +10,12 @@ int main() {
     const int width = 1920;
     const int height = 1080;
 
-    // 创建一个白色背景的图像
+    // 创建一个灰色背景的图像
     cv::Mat image = cv::Mat::zeros(height, width, CV_8UC3);
-    image.setTo(cv::Scalar(255, 255, 255));
+    image.setTo(cv::Scalar(245, 245, 245));
 
     // 设置方块个数
-    int area_number = 10;
+    int area_number = 20;
        // 每个方块的尺寸
     int block_size = 50;
 
@@ -41,15 +41,13 @@ for (size_t i = 0; i < area_number; i++)
     // 在图像中绘制绿色区域
     cv::rectangle(image, greenRect, cv::Scalar(0, 255, 0), cv::FILLED);
 }
-    // 用红色线将图像分为左右两个相等的部分
-    // cv::line(image, cv::Point(width / 2, 0), cv::Point(width / 2, height), cv::Scalar(0, 0, 255), 3);
 
     // 显示图像
     cv::imshow("Image with Random Stained Area", image);
     cv::waitKey(0);
 
     // 保存清洗区域“Stained_area”图像
-    cv::imwrite("../image/Stained_area.png", image);
+    cv::imwrite("../image/Stained_area20.png", image);
 
     return 0;
 }

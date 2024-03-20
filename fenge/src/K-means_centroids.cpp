@@ -10,7 +10,7 @@ using namespace cv;
 int main() {
     
         // 读取图像
-    Mat img = imread("../../tuxiang/image/Stained_area.png");
+    Mat img = imread("../../tuxiang/image/Stained_area20.png");
         // 检查图像是否正确加载
     if (img.empty()) 
     {
@@ -46,6 +46,8 @@ int main() {
         // 定义褐色与灰色
         Vec3b blue(255, 0, 0); // BGR格式，3b表示3个无符号字符元素
         Vec3b orange(0, 165, 255); // BGR格式
+        Vec3b white(245, 245, 245); // BGR格式
+        Vec3b black(0, 0, 0); // BGR格式
 
         // 创建一个新的图像，用于可视化聚类结果
         Mat clusteredImg = img.clone();
@@ -57,11 +59,25 @@ int main() {
             //clusteredImg.at<Vec3b>(pos) = (clusterIdx == 0) ? brown : gray;
 
         // 根据类别选择颜色，并在质点位置画圆
-        Scalar color = (clusterIdx == 0) ? blue : orange;
+        //Scalar color = (clusterIdx == 0) ? blue : orange;
+        Scalar color = white;//这里不用颜色区分，全用背景色填充
         // 如果有更多类别，可以使用switch语句或者if-else链来选择颜色
 
+        if (clusterIdx == 0)
+        {
         // 在clusteredImg上画圆
-        circle(clusteredImg, pos, 10, color, -1); // 半径为10，填充圆
+            circle(clusteredImg, pos, 13, black, -1); // 半径为15，填充圆
+        }
+        else if (clusterIdx == 1)
+        {
+            cv::Rect whiteRECT(pos.x-13, pos.y-13, 26, 26);
+            rectangle(clusteredImg, whiteRECT, black, cv::FILLED);//标记为矩形
+        // cv::line(clusteredImg, cv::Point(pos.x, pos.y - 25), cv::Point(pos.x + 25, pos.y + 25), white, 2);
+        // cv::line(clusteredImg, cv::Point(pos.x + 25, pos.y + 25), cv::Point(pos.x - 25, pos.y + 25), white, 2);
+        // cv::line(clusteredImg, cv::Point(pos.x - 25, pos.y + 25), cv::Point(pos.x, pos.y - 25), white, 2);//标记为三角形
+        }
+
+
 
         }
 
@@ -69,7 +85,7 @@ int main() {
     imshow("Center_clustered_area", clusteredImg);
     waitKey(0);
     // 储存图片
-    cv::imwrite("../image/Center_clustered_area.png", clusteredImg);
+    cv::imwrite("../image/Center_clustered_area20.png", clusteredImg);
 
 
     std::cout << "Classification complete and saved to 'classified_points.txt'." << std::endl;

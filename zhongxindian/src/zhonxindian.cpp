@@ -6,8 +6,8 @@ using namespace cv;
 using namespace std;
 
 int main() {
-    Mat img = imread("../../tuxiang/image/Stained_area.png", IMREAD_GRAYSCALE);
-    Mat img_yuantu= imread("../../tuxiang/image/Stained_area.png");
+    Mat img = imread("../../tuxiang/image/Stained_area20.png", IMREAD_GRAYSCALE);
+    Mat img_yuantu= imread("../../tuxiang/image/Stained_area20.png");
 
     // 定义一个点的向量来存储质心
 std::vector<cv::Point> centroids;
@@ -61,7 +61,7 @@ std::ofstream outfile("../centroids.txt");
     imshow("Centroids", img_yuantu);
     waitKey(0);
 
-    imwrite("../image/zhongxindian.png", img_yuantu);
+    imwrite("../image/zhongxindian20.png", img_yuantu);
 
     return 0;
 }

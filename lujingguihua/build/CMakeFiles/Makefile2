@@ -63,7 +63,8 @@ CMAKE_BINARY_DIR = /home/wangyi/jixiebiquyuRepo/lujingguihua/build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/lujing.dir/all
+all: CMakeFiles/lujing_huatu.dir/all
+all: CMakeFiles/lujing_diedai.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -71,34 +72,61 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/lujing.dir/clean
+clean: CMakeFiles/lujing_huatu.dir/clean
+clean: CMakeFiles/lujing_diedai.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/lujing.dir
+# Target rules for target CMakeFiles/lujing_huatu.dir
 
 # All Build rule for target.
-CMakeFiles/lujing.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lujing.dir/build.make CMakeFiles/lujing.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lujing.dir/build.make CMakeFiles/lujing.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wangyi/jixiebiquyuRepo/lujingguihua/build/CMakeFiles --progress-num=1,2,3 "Built target lujing"
-.PHONY : CMakeFiles/lujing.dir/all
+CMakeFiles/lujing_huatu.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lujing_huatu.dir/build.make CMakeFiles/lujing_huatu.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lujing_huatu.dir/build.make CMakeFiles/lujing_huatu.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wangyi/jixiebiquyuRepo/lujingguihua/build/CMakeFiles --progress-num=4,5,6 "Built target lujing_huatu"
+.PHONY : CMakeFiles/lujing_huatu.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/lujing.dir/rule: cmake_check_build_system
+CMakeFiles/lujing_huatu.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/wangyi/jixiebiquyuRepo/lujingguihua/build/CMakeFiles 3
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/lujing.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/lujing_huatu.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/wangyi/jixiebiquyuRepo/lujingguihua/build/CMakeFiles 0
-.PHONY : CMakeFiles/lujing.dir/rule
+.PHONY : CMakeFiles/lujing_huatu.dir/rule
 
 # Convenience name for target.
-lujing: CMakeFiles/lujing.dir/rule
-.PHONY : lujing
+lujing_huatu: CMakeFiles/lujing_huatu.dir/rule
+.PHONY : lujing_huatu
 
 # clean rule for target.
-CMakeFiles/lujing.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lujing.dir/build.make CMakeFiles/lujing.dir/clean
-.PHONY : CMakeFiles/lujing.dir/clean
+CMakeFiles/lujing_huatu.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lujing_huatu.dir/build.make CMakeFiles/lujing_huatu.dir/clean
+.PHONY : CMakeFiles/lujing_huatu.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/lujing_diedai.dir
+
+# All Build rule for target.
+CMakeFiles/lujing_diedai.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lujing_diedai.dir/build.make CMakeFiles/lujing_diedai.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lujing_diedai.dir/build.make CMakeFiles/lujing_diedai.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wangyi/jixiebiquyuRepo/lujingguihua/build/CMakeFiles --progress-num=1,2,3 "Built target lujing_diedai"
+.PHONY : CMakeFiles/lujing_diedai.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/lujing_diedai.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wangyi/jixiebiquyuRepo/lujingguihua/build/CMakeFiles 3
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/lujing_diedai.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wangyi/jixiebiquyuRepo/lujingguihua/build/CMakeFiles 0
+.PHONY : CMakeFiles/lujing_diedai.dir/rule
+
+# Convenience name for target.
+lujing_diedai: CMakeFiles/lujing_diedai.dir/rule
+.PHONY : lujing_diedai
+
+# clean rule for target.
+CMakeFiles/lujing_diedai.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lujing_diedai.dir/build.make CMakeFiles/lujing_diedai.dir/clean
+.PHONY : CMakeFiles/lujing_diedai.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
